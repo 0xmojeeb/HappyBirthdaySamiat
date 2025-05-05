@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Samiat 🎉</title>
+  <style>
+     body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #fffacc, #e6f0ff);
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-image: url('Asset/images/header.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    nav {
+      background: #ffcc00;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav button {
+      background: transparent;
+      border: none;
+      color: #0033cc;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 1.1rem;
+    }
+
+    nav button:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 30px;
+    }
+
+    .message {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      white-space: pre-wrap;
+    }
+
+    .from {
+      margin-top: 20px;
+      font-style: italic;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .music-btn {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background: #0033cc;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      z-index: 999;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Happy Birthday Omobolanle 🎂</h1>
+  </header>
+
+  <nav>
+    <button onclick="showTab('wish')">Birthday Wish</button>
+    <button onclick="showTab('oriki')">Oriki</button>
+  </nav>
+
+  <div class="tab-content active" id="wish">
+    <div class="container">
+      <img src="Asset/images/Samiat2.jpg" alt="Me & You" style="max-width: 100%; height: auto; border-radius: 12px; margin-bottom: 20px;">
+      <h1>Happy Birthday, Samiat OmoBolanle 🎉</h1>
+      <p class="message">
+        <b>My dearest Samiat Omobolanle Asabi,</b>
+
+Happy, happy birthday to you, my best friend and my love! 
+Looking back over the past year and two months, 
+it feels like a lifetime of moments packed into such a short span. 
+We've truly journeyed through sunshine and rain, haven't we? 
+And through it all, my feelings for you have only deepened.
+
+You are more than just my babe; you are my rock, 
+the one who sees the best in me even when I doubt myself. 
+Thank you for your unwavering support and 
+for always pushing me to become a better version of myself. 
+Our memories together are treasures I hold close to my heart, 
+the laughter, the adventures, and even the silly 
+"<b>cat and cat</b>" moments that make <b>US</b>.
+
+Thank you for standing by me, for believing in me,
+and for embracing all that I am. 
+You light up my world, <b>Samiat</b>. 
+I cherish our bond, our friendship, and the love we share.
+ 
+May this new year of your life be filled with even more joy,
+laughter, and beautiful memories. 
+May your path ahead be bright and 
+filled with all the wonderful things you deserve.
+
+<b>I LOVE YOU</b>
+      </p>
+      <p class="from">— <i>Adewale, Ayinde</i> (Mojeeb.eth) 💙</p>
+    </div>
+  </div>
+  
+  <div class="tab-content" id="oriki">
+    
+    <div class="container">
+      <img src="Asset/images/Samiat5.jpg" alt="Ashabi Oriki" style="max-width: 100%; height: auto; border-radius: 12px; margin-bottom: 20px;">
+      <h1>👑 Ashabi 👑</h1>
+      
+      <p class="message">
+        Ashabi,OmoBolanle!
+        Àshàbì, ẹni tí a yàn, ẹni tí a ṣẹ́gun.
+        Wíwà rẹ jẹ́ ẹ̀bùn, ìbùkún fún gbogbo wa.
+        Ìwọ ni ààmì ìmọ́lẹ̀, ìràwọ̀ nínú ayé wa.
+        O ti wá láti ṣe àjogúnbá pípẹ́.
+        Ìwọ ni ọlọ́run àwòkọ́ṣe pẹ̀lú ògùṣọ̀ Mídásì.
+        Ìrìn rẹ jẹ́ ọláńlá, ọ̀rọ̀ rẹ jẹ́ iṣẹ́ ọnà àti àgbékalẹ̀.
+        O lẹ́wà nínú ìṣẹ̀dá rẹ.
+        Pẹ̀lú rẹ nínú ayé wa, a gbàgbé àìṣedéédé.
+        O ṣeun, Àshàbì. A ó máa dúpẹ́ títí láé fún wíwà rẹ.
+
+        Kí ìwà rẹ má bàjẹ́, kí ọlá rẹ má ṣe tú,
+        Kí gbogbo ọjọ́ ayé rẹ dùn bí ayẹyẹ ọjọ́ ibi.
+        Amin 🙏🏽
+        <img src="Asset/images/Love.jpg" alt="Our Love" style="max-width: 100%; height: auto; border-radius: 12px; margin-bottom: 20px;">
+      </p>
+    </div>
+  </div>
+
+  <audio id="bg-music" autoplay loop>
+    <source src="Asset/music/obimo.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <button onclick="toggleMusic()" class="music-btn">🎵 Toggle Music</button>
+
+  <script>
+    function showTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(tab => {
+        tab.classList.remove('active');
+      });
+      document.getElementById(tabId).classList.add('active');
+    }
+
+    function toggleMusic() {
+      const music = document.getElementById("bg-music");
+      if (music.paused) {
+        music.play();
+      } else {
+        music.pause();
+      }
+    }
+  </script>
+</body>
+
+</html>
